@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    color: white;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/badbunny.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image: url(../img/headerb.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.h1t{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.titleh{
+    margin: 30px;
+}
+
+#nav{
+    display: block;
+    width: 100%;
+    background-color: rgb(138, 47, 47);
+    text-align: center;
+}
+
+#nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#nav a:hover{
+    color: rgb(213, 9, 9);
+}
+
+.content{
+    display: flexbox;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 60px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1%;
+}
+
+.content h2{
+    padding: 10px;
+    color: rgb(138, 47, 47);
+}
+
+.content, p{
+    padding: 10px;
+}
+
+.b1{
+    width: 20%;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    float: right;
+}
+
+.b2{
+    width: 35%;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    float: right;
+}
+
+.fit{
+    display: flexbox;
+    margin-left: 90px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.albums{
+    vertical-align: auto;
+    display: inline-block;
+    text-align: center;
+    width: 250px; 
+}
+
+.img1{
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.img1:hover{
+    opacity: 50%;
+    color: gray;
+}
+
+.caption{
+    display: block;
+}
+
+.social{
+    color: rgb(138, 47, 47);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.social, i{
+    color: rgb(138, 47, 47);
+}
+
+#footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(138, 47, 47);
+    color: white;
+    text-align: center;
+
+}
